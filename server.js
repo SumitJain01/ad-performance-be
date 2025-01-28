@@ -1,4 +1,5 @@
 const express = require('express');
+const serverless = require("serverless-http");
 const multer = require('multer');
 const csvParser = require('csv-parser');
 const fs = require('fs');
@@ -59,3 +60,4 @@ app.post('/analyze', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+module.exports.handler = serverless(app);

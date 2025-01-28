@@ -1,0 +1,88 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Production build directories
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+.DS_Store
+*.pem
+*.p12
+*.key
+*.crt
+*.csr
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Parcel-bundler cache (if applicable)
+.cache/
+
+# Next.js build output (if applicable)
+.next/
+
+# Svelte build output (if applicable)
+.svelte-kit/
+
+# Nuxt.js build output (if applicable)
+.nuxt/
+
+# Vue.js build output (if applicable)
+.vuepress/dist
+
+# Storybook build output (if applicable)
+.out/
+
+# Gatsby files
+.cache/
+public/
+
+# Stylelint cache
+.stylelintcache
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional REPL history
+.node_repl_history
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Linux system files
+*~
+
+# Temporary files
+*.swp
+*.swo
